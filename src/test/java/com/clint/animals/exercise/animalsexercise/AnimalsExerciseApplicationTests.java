@@ -1,7 +1,9 @@
 package com.clint.animals.exercise.animalsexercise;
 
+import com.clint.animals.exercise.animalsexercise.helper.AnimalCounter;
 import com.clint.animals.exercise.animalsexercise.helper.Constants;
 import com.clint.animals.exercise.animalsexercise.model.*;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -111,6 +113,34 @@ class AnimalsExerciseApplicationTests {
     void testDolphins(){
         Dolphin dolphin = new Dolphin();
         System.out.println("\n==== Testing dolphin ====\n" + dolphin.printQuirks());
+    }
+
+    @Test
+    void testAnimalCount(){
+        Animal[] animals = new Animal[]{
+                new Bird(),
+                new Duck(),
+                new Chicken(),
+                new Rooster(),
+                new Parrot(),
+                new Fish(),
+                new Shark(),
+                new ClownFish(),
+                new Dolphin(),
+                new Frog(),
+                new Dog(),
+                new Butterfly(),
+                new Cat()
+        };
+
+        Animal animalCount = AnimalCounter.countAnimal(animals);
+
+        Assertions.assertEquals(animalCount.getAnimalsCanFly(),6);
+        Assertions.assertEquals(animalCount.getAnimalsCanWalk(),8);
+        Assertions.assertEquals(animalCount.getAnimalsCanSing(),5);
+        Assertions.assertEquals(animalCount.getAnimalsCanSwim(),5);
+        Assertions.assertEquals(animalCount.getAnimalsCanJoke(),1);
+
     }
 
 }
