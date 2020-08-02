@@ -34,4 +34,4 @@ A3
  c. how many of these animals can sing?
  d. how many of these animals can swim?  
  **Made a helper class to count instance of implemented behaviors, and also made it  
- a restful webservice: http://localhost:8080/animalsApi/getAnimalCounts
+ a restful webservice: http://localhost:8080/animalsApi/getAnimalCounts**
