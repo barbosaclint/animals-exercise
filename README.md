@@ -27,3 +27,11 @@ A3
  b. How do you avoid duplicating code or introducing unneeded overhead?   
     - **By using interfaces, it can have different implementation on different classes**
   
+ E1  
+ 1. Can you share the code to count:
+ a. how many of these animals can fly?
+ b. how many of these animals can walk?
+ c. how many of these animals can sing?
+ d. how many of these animals can swim?  
+ **Made a helper class to count instance of implemented behaviors, and also made it  
+ a restful webservice: http://localhost:8080/animalsApi/getAnimalCounts
