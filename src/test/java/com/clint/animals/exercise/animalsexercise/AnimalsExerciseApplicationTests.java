@@ -107,4 +107,10 @@ class AnimalsExerciseApplicationTests {
 
     }
 
+    @Test
+    void testDolphins(){
+        Dolphin dolphin = new Dolphin();
+        System.out.println("\n==== Testing dolphin ====\n" + dolphin.printQuirks());
+    }
+
 }
