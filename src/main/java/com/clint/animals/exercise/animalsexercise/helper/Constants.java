@@ -22,4 +22,12 @@ public class Constants {
     public static final String SOMETHING_ROOSTER = "rooster";
     public static final String SOMETHING_DUCK = "duck";
     public static final String SOMETHING_PHONE = "phone";
+
+    public static final String COLOR_NO = "transparent";
+    public static final String COLOR_ORANGE = "orange";
+    public static final String COLOR_GRAY = "grey";
+
+    public static final String SIZE_NO = "abstract size";
+    public static final String SIZE_SMALL = "small";
+    public static final String SIZE_LARGE = "large";
 }

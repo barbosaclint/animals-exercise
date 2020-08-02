@@ -3,17 +3,14 @@ package com.clint.animals.exercise.animalsexercise;
 import com.clint.animals.exercise.animalsexercise.helper.Constants;
 import com.clint.animals.exercise.animalsexercise.model.*;
 import org.junit.jupiter.api.Test;
-import org.springframework.util.Assert;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.StringContains.containsString;
-import static org.junit.jupiter.api.Assertions.*;
-
 
 class AnimalsExerciseApplicationTests {
 
     @Test
-    void testAnimals() {
+    void testBirds() {
 
         Bird bird = new Bird();
         System.out.println("==== Testing Bird ====\n" + bird.printQuirks());
@@ -85,6 +82,29 @@ class AnimalsExerciseApplicationTests {
         assertThat(parrotWithPhone.printQuirks(Constants.SOMETHING_PHONE), containsString("sing"));
         assertThat(parrotWithPhone.printQuirks(Constants.SOMETHING_PHONE), containsString("ring"));
 
+    }
+
+    @Test
+    void testFishes(){
+
+        Fish fish = new Fish();
+        System.out.println("\n==== Testing Fish ====\n" + fish.printQuirks());
+        assertThat(fish.printQuirks(), containsString("swim"));
+        assertThat(fish.printQuirks(), containsString("transparent"));
+        assertThat(fish.printQuirks(), containsString("abstract"));
+
+        ClownFish nemo = new ClownFish();
+        System.out.println("\n==== Testing Finding Nemo ====\n" + nemo.printQuirks());
+        assertThat(nemo.printQuirks(), containsString("swim"));
+        assertThat(nemo.printQuirks(), containsString("orange"));
+        assertThat(nemo.printQuirks(), containsString("small"));
+
+        Shark shark = new Shark();
+        System.out.println("\n==== Testing Shark ====\n" + shark.printQuirks());
+        assertThat(shark.printQuirks(), containsString("swim"));
+        assertThat(shark.printQuirks(), containsString("grey"));
+        assertThat(shark.printQuirks(), containsString("large"));
 
     }
+
 }

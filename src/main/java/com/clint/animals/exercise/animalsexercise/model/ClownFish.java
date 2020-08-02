@@ -7,7 +7,7 @@ public class ClownFish extends Fish implements IMakeJoke {
 
     public String printQuirks(){
 
-        return behaviorSwim() + "\n" + behaviorMakeJoke();
+        return behaviorSwim() + "\n" + behaviorMakeJoke() + "\n" + color(Constants.COLOR_ORANGE) + "\n" + size(Constants.SIZE_SMALL);
     }
 
     @Override
