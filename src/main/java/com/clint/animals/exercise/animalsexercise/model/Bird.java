@@ -2,10 +2,11 @@ package com.clint.animals.exercise.animalsexercise.model;
 
 import com.clint.animals.exercise.animalsexercise.action.IFly;
 import com.clint.animals.exercise.animalsexercise.action.ISing;
+import com.clint.animals.exercise.animalsexercise.action.ISound;
 import com.clint.animals.exercise.animalsexercise.action.IWalk;
 import com.clint.animals.exercise.animalsexercise.helper.Constants;
 
-public class Bird extends Animal implements IWalk, IFly, ISing {
+public class Bird extends Animal implements IWalk, IFly, ISing, ISound {
 
     public String printQuirks(){
 
@@ -25,5 +26,10 @@ public class Bird extends Animal implements IWalk, IFly, ISing {
     @Override
     public String behaviorWalk() {
         return Constants.BEHAVIOR_WALK;
+    }
+
+    @Override
+    public String iSound() {
+        return Constants.SOUND_BIRD;
     }
 }
