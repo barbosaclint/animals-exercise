@@ -23,6 +23,6 @@ public class Fish extends Animal implements ISwim {
     @Override
     public String behaviorSwim() {
 
-        return Constants.BEHAVIOR_SWIM;
+        return Constants.ACTION_SWIM;
     }
 }

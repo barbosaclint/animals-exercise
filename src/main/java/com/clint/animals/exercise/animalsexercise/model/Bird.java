@@ -15,17 +15,17 @@ public class Bird extends Animal implements IWalk, IFly, ISing, ISound {
 
     @Override
     public String behaviorFly() {
-        return Constants.BEHAVIOR_FLY;
+        return Constants.ACTION_FLY;
     }
 
     @Override
     public String behaviorSing() {
-        return Constants.BEHAVIOR_SING;
+        return Constants.ACTION_SING;
     }
 
     @Override
     public String behaviorWalk() {
-        return Constants.BEHAVIOR_WALK;
+        return Constants.ACTION_WALK;
     }
 
     @Override

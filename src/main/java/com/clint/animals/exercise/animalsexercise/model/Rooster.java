@@ -10,7 +10,7 @@ public class Rooster extends Chicken {
     }
 
     public String behavior(){
-        return Constants.BEHAVIOR_WALK;
+        return Constants.ACTION_WALK;
     }
 
     public String sound(){

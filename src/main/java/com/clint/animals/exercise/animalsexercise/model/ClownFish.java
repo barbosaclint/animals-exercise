@@ -12,6 +12,6 @@ public class ClownFish extends Fish implements IMakeJoke {
 
     @Override
     public String behaviorMakeJoke() {
-        return Constants.BEHAVIOR_MAKE_JOKE;
+        return Constants.ACTION_MAKE_JOKE;
     }
 }
