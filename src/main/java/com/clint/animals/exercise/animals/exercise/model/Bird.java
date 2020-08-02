@@ -1,10 +1,10 @@
-package com.clint.animals.exercise.animalsexercise.model;
+package com.clint.animals.exercise.animals.exercise.model;
 
-import com.clint.animals.exercise.animalsexercise.action.IFly;
-import com.clint.animals.exercise.animalsexercise.action.ISing;
-import com.clint.animals.exercise.animalsexercise.action.ISound;
-import com.clint.animals.exercise.animalsexercise.action.IWalk;
-import com.clint.animals.exercise.animalsexercise.helper.Constants;
+import com.clint.animals.exercise.animals.exercise.action.IFly;
+import com.clint.animals.exercise.animals.exercise.action.ISing;
+import com.clint.animals.exercise.animals.exercise.action.IWalk;
+import com.clint.animals.exercise.animals.exercise.action.ISound;
+import com.clint.animals.exercise.animals.exercise.helper.Constants;
 
 public class Bird extends Animal implements IWalk, IFly, ISing, ISound {
 

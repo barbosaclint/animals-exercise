@@ -1,4 +1,4 @@
-package com.clint.animals.exercise.animalsexercise.model;
+package com.clint.animals.exercise.animals.exercise.model;
 
 public class Animal {
 

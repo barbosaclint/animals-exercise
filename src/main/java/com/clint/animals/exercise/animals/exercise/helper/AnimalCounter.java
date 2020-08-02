@@ -1,7 +1,8 @@
-package com.clint.animals.exercise.animalsexercise.helper;
+package com.clint.animals.exercise.animals.exercise.helper;
 
-import com.clint.animals.exercise.animalsexercise.action.*;
-import com.clint.animals.exercise.animalsexercise.model.Animal;
+import com.clint.animals.exercise.animals.exercise.action.*;
+import com.clint.animals.exercise.animals.exercise.model.Animal;
+import com.clint.animals.exercise.animals.exercise.action.*;
 
 public class AnimalCounter {
 

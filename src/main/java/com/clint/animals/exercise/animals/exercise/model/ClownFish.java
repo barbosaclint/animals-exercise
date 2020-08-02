@@ -1,7 +1,7 @@
-package com.clint.animals.exercise.animalsexercise.model;
+package com.clint.animals.exercise.animals.exercise.model;
 
-import com.clint.animals.exercise.animalsexercise.action.IMakeJoke;
-import com.clint.animals.exercise.animalsexercise.helper.Constants;
+import com.clint.animals.exercise.animals.exercise.action.IMakeJoke;
+import com.clint.animals.exercise.animals.exercise.helper.Constants;
 
 public class ClownFish extends Fish implements IMakeJoke {
 

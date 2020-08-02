@@ -1,6 +1,5 @@
-package com.clint.animals.exercise.animalsexercise;
+package com.clint.animals.exercise.animals.exercise;
 
-import com.clint.animals.exercise.animalsexercise.model.Bird;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

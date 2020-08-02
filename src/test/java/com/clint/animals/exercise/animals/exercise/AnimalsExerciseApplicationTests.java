@@ -1,8 +1,9 @@
-package com.clint.animals.exercise.animalsexercise;
+package com.clint.animals.exercise.animals.exercise;
 
-import com.clint.animals.exercise.animalsexercise.helper.AnimalCounter;
-import com.clint.animals.exercise.animalsexercise.helper.Constants;
-import com.clint.animals.exercise.animalsexercise.model.*;
+import com.clint.animals.exercise.animals.exercise.helper.AnimalCounter;
+import com.clint.animals.exercise.animals.exercise.helper.Constants;
+import com.clint.animals.exercise.animals.exercise.model.*;
+import com.clint.animals.exercise.animals.exercise.model.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

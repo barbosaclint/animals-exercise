@@ -1,4 +1,4 @@
-package com.clint.animals.exercise.animalsexercise.helper;
+package com.clint.animals.exercise.animals.exercise.helper;
 
 public class Constants {
 

@@ -1,7 +1,7 @@
-package com.clint.animals.exercise.animalsexercise.model;
+package com.clint.animals.exercise.animals.exercise.model;
 
-import com.clint.animals.exercise.animalsexercise.action.ISwim;
-import com.clint.animals.exercise.animalsexercise.helper.Constants;
+import com.clint.animals.exercise.animals.exercise.action.ISwim;
+import com.clint.animals.exercise.animals.exercise.helper.Constants;
 
 public class Fish extends Animal implements ISwim {
 
