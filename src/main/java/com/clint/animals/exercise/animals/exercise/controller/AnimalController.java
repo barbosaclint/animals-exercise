@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/animalsApi")
 public class AnimalController {
     // For Branch Praktis  aaaaaa !!!
+	// asdsdsadadsadsadsad 
     @GetMapping("/getAnimalCounts")
     public Animal getAnimalActionCount() {
 
