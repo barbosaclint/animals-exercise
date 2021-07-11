@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/animalsApi")
 public class AnimalController {
-    // For Branch Praktis  aaaaaa bbbb!!!
+    // For Branch Praktis  aaaaaa bbbb cccc!!!
     @GetMapping("/getAnimalCounts")
     public Animal getAnimalActionCount() {
 
